@@ -8,15 +8,20 @@ except ImportError:
     from distutils.core import setup
     setup
 
-from uvwxyz import __version__
-
 setup(name='uvwxyz',
-      version=__version__,
+      version='1.1.1',
       description='Calculate XYZ and UVW coordinates',
       url='https://github.com/dr-rodriguez/uvwxyz.git',
       author='David Rodriguez',
-      author_email='drodriguez1[at]amnh.org',
+      author_email='drodriguez1@amnh.org',
       license='MIT',
-      packages=['numpy', 'astropy', 'math'],
-      install_requires=['numpy', 'astropy']
+      install_requires=['numpy', 'astropy'],
+      packages=['uvwxyz'],
+      classifiers=[
+          'Development Status :: 4 - Beta',
+          'Intended Audience :: Science/Research',
+          'License :: OSI Approved :: MIT License',
+          'Programming Language :: Python'
+      ],
+      keywords='astrophysics',
       )
