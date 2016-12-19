@@ -1,15 +1,8 @@
-"""
-David R. Rodriguez
-
-Module containing UVW and XYZ functions
-"""
-
 from math import cos, sin
 from astropy.coordinates import SkyCoord
 import numpy as np
 
 
-# ===================================================
 def uvw(ra, dec, d, pmra, pmde, rv):
     """
     Function to calculate UVW given RA, Dec, Distance, RV, and PMs
@@ -77,7 +70,6 @@ def uvw(ra, dec, d, pmra, pmde, rv):
     return u, v, w
 
 
-# ===================================================
 def xyz(ra, dec, d):
     """
     Function to calculate XYZ given RA, Dec, and Distance
@@ -107,4 +99,3 @@ def xyz(ra, dec, d):
 
     return xgc, ygc, zgc
 
-# ===================================================

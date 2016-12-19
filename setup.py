@@ -17,6 +17,6 @@ setup(name='uvwxyz',
       author='David Rodriguez',
       author_email='drodriguez1[at]amnh.org',
       license='MIT',
-      packages=['numpy', 'astropy'],
+      packages=['numpy', 'astropy', 'math'],
       install_requires=['numpy', 'astropy']
       )
