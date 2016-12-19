@@ -1,6 +1,6 @@
 # Tests
 
-from uvwxyz import uvw, xyz
+from uvwxyz.uvwxyz import uvw, xyz
 
 # TW Hya from Simbad
 ra = 165.46627797
