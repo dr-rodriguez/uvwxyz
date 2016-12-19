@@ -20,7 +20,7 @@ You can then import the individual functions as follows::
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 4
 
    uvwxyz
 
