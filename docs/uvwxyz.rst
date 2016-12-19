@@ -1,7 +1,7 @@
 uvwxyz module
 ==============
 
-.. automodule:: uvwxyz.uvwxyz
+.. automodule:: uvwxyz
    :members:
    :undoc-members:
    :show-inheritance:
