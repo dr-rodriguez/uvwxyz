@@ -13,7 +13,7 @@ from uvwxyz import __version__
 setup(name='uvwxyz',
       version=__version__,
       description='Calculate XYZ and UVW coordinates',
-      url='http://dr-rodriguez.github.io',
+      url='https://github.com/dr-rodriguez/uvwxyz.git',
       author='David Rodriguez',
       author_email='drodriguez1[at]amnh.org',
       license='MIT',
